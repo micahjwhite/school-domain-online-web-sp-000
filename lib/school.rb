@@ -24,7 +24,7 @@ attr_reader :name, :roster
     roster.each do |grade, name_array|
       sorted_array[grade] = name_array.sort
     end
-    
+    sorted_array
   end
 
 end
