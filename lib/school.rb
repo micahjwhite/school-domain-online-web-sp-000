@@ -19,8 +19,8 @@ attr_reader :name, :roster
     @roster[grade]
   end
   
-  def sort(grade)
-    @roster[grade].values.sort
+  def sort
+    
   end
 
 end
