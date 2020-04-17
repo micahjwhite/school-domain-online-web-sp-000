@@ -20,11 +20,11 @@ attr_reader :name, :roster
   end
   
   def sort
-    sorted_array = []
+    sorted_hash = {}
     roster.each do |grade, name_array|
-      sorted_array[grade] = name_array.sort
+      sorted_hash[grade] = name_array.sort
     end
-    sorted_array
+    sorted_hash
   end
 
 end
