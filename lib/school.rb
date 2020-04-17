@@ -20,7 +20,7 @@ attr_reader :name, :roster
   end
   
   def sort
-    roster.collect
+    roster.collect do |grade, 
   end
 
 end
